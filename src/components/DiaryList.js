@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
 
 import MyButton from "./MyButton";
@@ -15,7 +15,7 @@ const filterOptionList = [
 	{value: "bad", name: "나쁜기분만"}
 ];
 
-const ControlMenu = ({value, onChange, optionList}) => {
+const ControlMenu = React.memo(({value, onChange, optionList}) => {
 	return (
 		<select
 			className="ControlMenu"
@@ -29,7 +29,7 @@ const ControlMenu = ({value, onChange, optionList}) => {
 			))}
 		</select>
 	);
-};
+});
 
 const DiaryList = ({diaryList}) => {
 	const navigate = useNavigate();
