@@ -12,7 +12,7 @@ https://jason-react-project.web.app/
 
 로컬스토리지 기능을 이용해서 작성한 일기들이 새로고침을 해도 남아있게 구현했습니다
 
-++ firebase 를 이용해서 배포완료.
++ firebase 를 이용해서 배포완료.
 
 ## VERSION UPDATES
 
