@@ -1,14 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Yeon+Sung&display=swap");
 
 body {
-	background-color: #f6f6f6;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: "Nanum Pen Script";
 	min-height: 100vh;
 	margin: 0;
+
+	/* 바탕배경 */
+	background: linear-gradient(45deg, #9590c9 45px, transparent 45px) 64px 64px,
+		linear-gradient(
+			45deg,
+			#9590c9 45px,
+			transparent 45px,
+			transparent 91px,
+			#e1ebbd 91px,
+			#e1ebbd 135px,
+			transparent 135px
+		),
+		linear-gradient(
+			-45deg,
+			#9590c9 23px,
+			transparent 23px,
+			transparent 68px,
+			#9590c9 68px,
+			#9590c9 113px,
+			transparent 113px,
+			transparent 158px,
+			#9590c9 158px
+		);
+	background-color: #e1ebbd;
+	background-size: 128px 128px;
 }
+
 @media (min-width: 650px) {
 	.App {
 		width: 640px;
@@ -22,7 +47,7 @@ body {
 }
 
 #root {
-	background-color: white;
+	background-color: whitesmoke;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .App {

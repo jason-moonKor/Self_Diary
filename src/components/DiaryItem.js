@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 import React from "react";
 
 const DiaryItem = ({id, emotion, content, date}) => {
-	const strDate = new Date(parseInt(date)).toLocaleDateString();
+	const strDate = new Date(parseInt(date)).toLocaleDateString(); //..하..오전9시라고 자꾸 나와서 뭐가 문제냐고 600번 혼잣말하면서 버그찾다가 드디어 찾아냄.. toLocaleString 라고 중간에 Date 빼먹고 썼었음..심지어 에러도안나고 맞춤법도 안틀림..하..여튼 버그 고침
 	const navigate = useNavigate();
 	const goDetail = () => {
 		navigate(`/diary/${id}`);

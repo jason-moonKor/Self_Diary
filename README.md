@@ -1,5 +1,6 @@
+https://jason-react-project.web.app/
 
-React 를 이용한 토이 프로젝트
+# React 를 이용한 토이 프로젝트
 
 일기장을 쓰고 지우고 수정할수있는 기능이 있는 일기장입니다
 
@@ -13,5 +14,16 @@ React 를 이용한 토이 프로젝트
 
 ++ firebase 를 이용해서 배포완료.
 
-https://jason-react-project.web.app/
+## VERSION UPDATES
 
+> 22/02/15
+
+- background 변경
+
+## Project Stack
+
+- React
+- React Dom
+- React Router Dom
+- Firebase
+- Open Graph(image, descript, site_name...)
